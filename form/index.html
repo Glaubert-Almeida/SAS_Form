@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <!-- Compiled and minified CSS -->
+ 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+	  <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+      <script src="../js/init.js"></script>
+      <script src="../js/script.js" defer></script>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      
+      <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+      
+      <link rel="stylesheet" href="../css/style.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>BcaDE</title>
+    </head>
+
+    <!-- <header>
+
+    </header> -->
+
+    <body>
+
+        <nav>
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo"><img src="../img/dcipas.png" width="55px" height="60px"></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#!">Meus dados</a></li>
+                <li><a href="#!">Contatos</a></li>
+                <li><a href="../login.html">Sair</a></li>
+              </ul>
+            </div>
+        </nav>
+
+    	<div class="container">
+    	<div class="row formula">
+    <form class="col s12">
+
+        <div class="row aviso1">
+            <div class="logo col s2">
+                <img src="../img/logoSaS.png" width="100px" height="100%" alt="dcipas">
+            </div>
+
+            <div class="logo col s8">
+                <h4 class="text-align">FORMULÁRIO DE CADASTRO E ATUALIZAÇÃO DE DADOS DOS MILITARES DA ATIVA, VETERANOS, PENSIONISTAS E SERVIDORES CIVIS, QUE POSSUEM DEPENDENTES COM DEFICIÊNCIA.</h4>
+            </div>
+
+            <div class="logo col s2">
+                <img src="../img/logoSaS.png" width="100px" height="100%" alt="dcipas">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="aviso">
+            <p>Este formulário segue os preceitos da Lei Geral de Proteção de Dados - LGPD, Lei 13.709, de 14 de agosto de 2018.</p>
+        </div>
+
+        <hr>
+      
+      <div class="row etapa">
+        <div class="input-field col s12">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="icon_prefix" type="text" class="validate">
+            <label for="icon_prefix">Nome Completo:</label>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+            <select name="" id="ue">
+              <option value="" disable option>Situação</option>
+              <option value="1">Ativa</option>
+              <option value="2">Veterano</option>
+              <option value="3">Pensionista</option>
+              <option value="4">Servidor Civil</option>
+            </select>
+          </div>
+
+         <div class="input-field col s6">
+          <input id="precp" type="number" class="validate">
+          <label for="email">Prec/CP ou Matrícula</label>
+        </div>
+      </div>
+
+      <!-- <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea" type="textarea" class="materialize-textarea">
+          </textarea>
+          <label for="textarea">Biografia</label>
+        </div>
+      </div> -->
+
+      <div class="row">
+        <div class="input-field col s6">
+            <select name="" id="frmPostGrad">
+              <option value="" disable option>Post / Grad</option>
+              <option value="1">Gen Bda</option>
+              <option value="2">Major</option>
+              <option value="3">Subtenente</option>
+              <option value="4">Cabo</option>
+              <option value="5">Servidor Civil</option>
+            </select>
+          </div>
+
+         <div class="input-field col s6">
+            <select name="" id="frmVincula">
+                <option value="" disable option>Vincuação</option>
+                <option value="1">Cmdo 1 RM</option>
+                <option value="2">Cmdo 2 RM</option>
+                <option value="3">Cmdo 3 RM</option>
+                <option value="4">Cmdo 4 RM</option>
+                <option value="5">Cmdo 11 RM</option>
+              </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+      </div>
+
+      <div class="input-field col s6">
+        <input id="tell" type="tel" class="validate">
+        <label for="tell">Telefône</label>
+      </div>
+
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+            <input id="cep" type="text" class="validate">
+            <label for="email">CEP</label>
+      </div>
+
+      <div class="input-field col s6">
+		<select id="uf">
+            <option value="Est" disable option>Estado</option>
+			<option value="AC">Acre</option>
+			<option value="AL">Alagoas</option>
+			<option value="AP">Amapá</option>
+			<option value="AM">Amazonas</option>
+			<option value="BA">Bahia</option>
+			<option value="CE">Ceará</option>
+			<option value="DF">Distrito Federal</option>
+			<option value="ES">Espírito Santo</option>
+			<option value="GO">Goiás</option>
+			<option value="MA">Maranhão</option>
+			<option value="MT">Mato Grosso</option>
+			<option value="MS">Mato Grosso do Sul</option>
+			<option value="MG">Minas Gerais</option>
+			<option value="PA">Pará</option>
+			<option value="PB">Paraíba</option>
+			<option value="PR">Paraná</option>
+			<option value="PE">Pernambuco</option>
+			<option value="PI">Piauí</option>
+			<option value="RJ">Rio de Janeiro</option>
+			<option value="RN">Rio Grande do Norte</option>
+			<option value="RS">Rio Grande do Sul</option>
+			<option value="RO">Rondônia</option>
+			<option value="RR">Roraima</option>
+			<option value="SC">Santa Catarina</option>
+			<option value="SP">São Paulo</option>
+			<option value="SE">Sergipe</option>
+			<option value="TO">Tocantins</option>
+		</select>
+      </div>
+
+      <div class="input-field col s12">
+
+        <i class="material-icons prefix">location_on</i>
+        <input id="icon_loc" type="text" class="validate">
+        <label for="icon_prefix">Endereço</label> 
+
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+            <input id="bairro" type="text" class="validate">
+            <label for="email">Bairro</label>
+      </div>
+
+      <div class="input-field col s6">
+        <input id="cidade" type="text" class="validate">
+        <label for="tell">Cidade</label>
+      </div>
+
+      </div>
+      
+      <div class="row">
+        <div class="input-field col s6">
+            <input id="nCasa" type="number" class="validate">
+            <label for="email">Número da Casa ou Apt</label>
+      </div>
+
+      <div class="input-field col s6">
+        <input id="complemento" type="text" class="validate">
+        <label for="tell">Complemento</label>
+      </div>
+
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="input-field col s12">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="icon_prefisx" type="text" class="validate">
+            <label for="icon_prefix">Nome Completo do Dependente com Deficiência:</label>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+            <select name="" id="def">
+              <option value="" disable option>Deficiência</option>
+              <option value="1">Transtorno do espectro autista</option>
+              <option value="2">Deficiência intelectual</option>
+              <option value="3">Paralisia cerebral</option>
+              <option value="4">Síndrome de Down</option>
+              <option value="5">Deficiência sensorial</option>
+              <option value="6">Outra</option>
+            </select>
+          </div>
+
+         <div class="input-field col s3">
+          <input id="frmIdadeDef" type="number" class="validate">
+          <label for="email">Idade</label>
+        </div>
+
+        <div class="input-field col s3">
+            <select name="" id="frmParentesco">
+                <option value="" disable option>Parentesco</option>
+                <option value="1">Filho (a)</option>
+                <option value="2">Esposa</option>
+                <option value="3">Mãe</option>
+                <option value="4">Outro</option>
+              </select>
+          </div>
+      </div>
+
+      </div>
+
+
+
+      <p class="center-align">
+        <button class="waves-effect waves-light btn" type="submit"><i class="material-icons right">send</i>enviar</button>
+    </p>
+
+
+    </form>
+  </div>
+</div>
+    	<!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="../js/materialize.min.js"></script>
+
+       <!-- Inicializa el js para el elemento .select --> 
+      <script>
+        $(document).ready(function() {
+        $('select').material_select();
+        $('.datepicker').pickadate(selectMonths: true, selectYears: 200 );
+      });
+      </script>
+
+    </body>
+    <footer class="page-footer">
+        <div class="row">
+          <div class="col l6 m6 s12">
+            <h5 class="white-text">DCIPAS</h5>
+            <p class="grey-text text-lighten-4">Diretoria de Civis, Inativos, Pensionistas e Assistência Social.</p>
+            <p>Servir bem àqueles que serviram.</p>
+          </div>
+          <div class="col l3 m3 s12">
+            <h5 class="white-text">Ações Socioassistenciais</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">EQUOTERAPIA</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">PREB</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">PAPD</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">PASFME</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">PASE</a></li>
+            </ul>
+          </div>
+          <div class="col l3 m3 s12">
+            <h5 class="white-text">NOVIDADES</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">PROVA DE VIDA DIGITAL</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">EB FACILIDADES</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">PÁGINA DA DCIPAS</a></li>
+            </ul>
+          </div>
+        </div>
+      <div class="footer-copyright">
+            <div class="col l6 m6 s12 copy">&copy; 2018 Copyright <a class="white-text text-lighten-4" href="http://www.freetimelearning.com/" target="_blank">Cb Glaubert - DCIPAS</a></div>
+      </div>
+    </footer>
+  </html>
